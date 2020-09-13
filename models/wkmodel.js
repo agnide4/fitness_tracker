@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 
 
 const Schema = mongoose.Schema;
+const opts = { toJSON: { virtuals: true } };
 
 const workoutSchema = new Schema(
   {
@@ -14,12 +15,7 @@ const workoutSchema = new Schema(
         ref: "Exercise"
     }],
 
-    toJSON: {
-      // include any virtual properties when data is requested
-      virtuals: true
-    }
-
-  });
+  },opts);
 
 // adds a dynamically-created property to schema
 workoutSchema.virtual("totalDuration").get(function() {
