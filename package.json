@@ -5,12 +5,12 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js",
-    "start": "node server.js",
+    "dev": "node seeders/seed.js && node server.js",
+    "start": "node seeders/seed.js && node server.js",
     "watch": "nodemon server.js",
     "seed": "node seeders/seed.js"
   },
-  "author": "",
+  "author": "Samir_The_Learner",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
