@@ -1,4 +1,4 @@
 module.exports = {
-    Book: require("./excercisemodel"),
-    Library: require("./wkmodel")
+    Exercise: require("./excercisemodel"),
+    Workout: require("./wkmodel")
   };
