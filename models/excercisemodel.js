@@ -30,7 +30,8 @@ const excerciseModel = new Schema(
         distance: {
           type: Number
         }
-      }
+      },
+      { _id : false }
 )
 
 const Exercise = mongoose.model("Excercise", excerciseModel);
