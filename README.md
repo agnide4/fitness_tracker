@@ -11,7 +11,7 @@ Language: JavaScript, HTML and CSS
 Notes: Frontend was provided by instructors for the homework. Main goal was to practice mongoose and mongoDB connections
 
 # Main page view
-![Alt Text](public\Images\fitness_tracker landing page.JPG)
+![Alt Text](https://drive.google.com/file/d/1BoWeQMryXx_Za-u60oPaUwaIfOuY0Lan/view?usp=sharing)
 
 
 ### Author 
